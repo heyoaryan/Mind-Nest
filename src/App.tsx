@@ -86,9 +86,14 @@ function App() {
       quote: '"Mind Nest is more than just an online learning platform - it\'s a revolution in education. We\'re creating a space where cute, curious students can learn 1-on-1 with passionate teachers, making education personal, engaging, and truly transformative."'
     },
     {
-      name: 'Pawan Singh',
+      name: 'Aditi Singh',
       role: 'Co-Founder & COO',
       quote: '"Our vision is to make quality education accessible to every child in India first, then expand globally. Through technology and innovation, we\'re building bridges between students and teachers, creating meaningful learning experiences that last a lifetime."'
+    },
+    {
+      name: 'Pawan Singh',
+      role: 'Co-Founder & Head of Operations',
+      quote: '"Education is the foundation of a better tomorrow. At Mind Nest, we\'re not just teaching subjects - we\'re nurturing creativity, critical thinking, and confidence in every young mind. Together, we\'re building the future leaders of tomorrow."'
     }
   ];
 
@@ -288,7 +293,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12">
             {founders.map((founder, index) => (
               <div
                 key={index}
