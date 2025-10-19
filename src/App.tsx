@@ -86,7 +86,7 @@ function App() {
       quote: '"Mind Nest is more than just an online learning platform - it\'s a revolution in education. We\'re creating a space where cute, curious students can learn 1-on-1 with passionate teachers, making education personal, engaging, and truly transformative."'
     },
     {
-      name: 'Aditi Singh',
+      name: 'Aditi',
       role: 'Co-Founder & COO',
       quote: '"Our vision is to make quality education accessible to every child in India first, then expand globally. Through technology and innovation, we\'re building bridges between students and teachers, creating meaningful learning experiences that last a lifetime."'
     },
